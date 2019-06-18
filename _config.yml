@@ -1,0 +1,55 @@
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+# Permalinks
+permalink:      pretty
+
+# Server
+source:         "."
+destination:    ./_gh_pages
+host:           0.0.0.0
+port:           9001
+baseurl:        ""
+url:            "https://marcosm3.com"
+encoding:       UTF-8
+exclude:
+  - .git/
+  - .github/
+  - assets/scss/
+  - build/
+  - js/
+  - node_modules/
+  - nuget/
+  - scss/
+  - vendor/
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - sache.json
+  - twbsconfig.yml
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
+
+# Social
+title:              Marcos M3
+description:        "Marcos y Molduras"
+twitter:            marcosm3
+authors:            "Benjamín Camacho"
+social_image_path:  /assets/brand/bootstrap-social.png
+social_logo_path:   /assets/brand/bootstrap-social-logo.png
+
+toc:
+  min_level:        2
+  max_level:        4
