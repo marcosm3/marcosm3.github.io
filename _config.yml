@@ -10,7 +10,7 @@ permalink:      pretty
 
 # Server
 source:         "."
-destination:    ./_gh_pages
+destination:    ./_site
 host:           0.0.0.0
 port:           9001
 baseurl:        ""
@@ -45,7 +45,6 @@ plugins:
 # Social
 title:              Marcos M3
 description:        "Marcos y Molduras"
-twitter:            marcosm3
 authors:            "Benjamín Camacho"
 
 toc:
