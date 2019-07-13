@@ -1,19 +1,17 @@
 <!doctype html>
 <html lang="es-mx">
-  <head>
-    {% include header.html %}
-  </head>
-  <body>
-    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
-      <div class="container">
-        <span class="skiplink-text">Ir al contenido principal</span>
-      </div>
-    </a>
-    {% include navbar.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-    {% include scripts.html %}
-  </body>
+<head>
+  {% include header.html %}
+</head>
+<body>
+  <a class="sr-only sr-only-focusable" href="#content">
+    <div class="container">
+      <span>Ir al contenido principal</span>
+    </div>
+  </a>
+  {% include navbar.html %}
+  {{ content }}
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
 </html>
