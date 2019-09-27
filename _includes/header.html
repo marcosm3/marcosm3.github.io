@@ -1,24 +1,10 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="{{ page.description | default: site.description | smartify }}">
-<meta name="author" content="{{ site.authors }}">
-<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-<!-- Estilos personalizado-->
-<link href="assets/css/site.css" rel="stylesheet">
-
-  <title>
-  {%- if page.title -%}
-  {{ page.title | smartify }} · {{ site.title | smartify }}
-  {%- else -%}
-  {{ site.title | smartify }} · {{ site.description | smartify }}
-  {%- endif -%}
-</title>
-
-{% include favicons.html %}
-{% include social.html %}
-{% include google-analytics.html %}
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">Welcome To Our Studio!</div>
+      <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+    </div>
+  </div>
+</header>

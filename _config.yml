@@ -21,13 +21,9 @@ exclude:
   - .github/
   - assets/scss/
   - build/
-  - js/
   - node_modules/
-  - nuget/
   - scss/
-  - vendor/
   - CODE_OF_CONDUCT.md
-  - composer.json
   - Gemfile
   - Gemfile.lock
   - package.js
@@ -35,7 +31,6 @@ exclude:
   - package-lock.json
   - README.md
   - sache.json
-  - twbsconfig.yml
 
 plugins:
   - jekyll-redirect-from

@@ -1,18 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es-mx">
 <head>
-  {% include header.html %}
+
+  {%- include head.html -%}
 </head>
-<body>
-  <a class="sr-only sr-only-focusable" href="#contenido">
-    <div class="container">
-      <span>Ir al contenido principal</span>
-    </div>
-  </a>
-  <main id="contenido" role="main">
-    {{ content }}
-  </main>
-  {% include footer.html %}
-  {% include scripts.html %}
+
+<body id="page-top">
+
+  {% include navbar.html %}
+
+  {% include header.html %}
+
+  {{ content }}
+
+  {%- include footer.html -%}
+
+  {%- include scripts.html -%}
+
+  {%- include modales.html -%}
+
 </body>
 </html>
