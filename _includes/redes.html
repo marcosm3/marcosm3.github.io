@@ -1,0 +1,30 @@
+<ul class="list-inline social-buttons">
+  {%- if site.twitter_username -%}
+  <li class="list-inline-item">
+    <a href="https://www.twitter.com/{{ site.facebook_username| cgi_escape | escape }}">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  {%- endif -%}
+  {%- if site.facebook_username -%}
+  <li class="list-inline-item">
+    <a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </li>
+  {%- endif -%}
+  {%- if site.linkedin_username -%}
+  <li class="list-inline-item">
+    <a href="https://www.linkedin.com/{{ site.facebook_username| cgi_escape | escape }}">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </li>
+  {%- endif -%}
+  {%- if site.whatsapp -%}
+  <li class="list-inline-item">
+    <a href="https://www.linkedin.com/{{ site.whatsapp| cgi_escape | escape }}">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </li>
+  {%- endif -%}
+</ul>
