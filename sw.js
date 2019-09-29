@@ -1,6 +1,7 @@
-var CACHE_NAME = 'marcosm3-cache-v1';
+var CACHE_NAME = 'marcosm3-cache-v3';
 var urlsToCache = [
-   '/'
+   '/css/marcosm3.min.css',
+   '/vendor/fontawesome-free/css/all.min.css'
 ];
 
 self.addEventListener('install', function (event) {
